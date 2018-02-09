@@ -1,0 +1,72 @@
+@import 'misc';
+
+
+@include respond-to(mobile) {
+
+ .header {
+   display: none;
+  }
+  
+ .mobileNav {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 100;
+  }
+
+  .mobileNav__logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .mobileNav__nav {
+    background-color: rgba(74, 183, 71, 0.85);
+    display: none;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .mobileNav__nav-item {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none; 
+    width: 100%
+    ;
+    &:hover {    
+     color: #fff; 
+    text-decoration: underline;
+    }
+
+    &:focus, &:active {
+      background-color: rgba(255, 255, 255, 0.15);
+      outline: none;
+    }
+
+    &.mobileNav__nav-item--menu {
+      background-color: rgba(0, 0, 0, 0.15);
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+
+  .mobileNav__certificates--gallery {
+    display: none;
+  }
+
+  .mobileNav__img {
+    display: none;
+  }
+
+}
