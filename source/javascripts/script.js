@@ -25,10 +25,6 @@ function highlightButtonOnDropdownActive() {
   });
 }
 
-$(document).ready(function() {
-  $('.main').addClass('fadeIn');
-});
-
 $(document).ready(function(){
     $(".mobileNav").click(function(){
         $(".mobileNav__nav").slideToggle();
@@ -91,17 +87,6 @@ function animateScrollToSection() {
   })
 }
 
-function initMap() {
-  var uluru = {lat: 53.4387859, lng: 14.562607299999968};
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 14,
-    center: uluru
-  });
-  var marker = new google.maps.Marker({
-    position: uluru,
-    map: map
-  });
-}
 
 function getDataFromAPI() {
   $('#dataButton').on('click', function(){
@@ -124,21 +109,8 @@ function getDataFromAPI() {
   })
 }
 
-function onRequestError(error) {
-  alert(error)
-}
-
-function onRequestSuccess(data) {
-  $('#dataItems').html('');
-  $.each(data, function(index, car) {
-    var itemTemplate = '<div>Model: ' + car.model + '<br/>Engine: ' + car.engine + '<br/><br/></div>';
-    $('#dataItems').append(itemTemplate);
-  })
-}
-
 $(document).ready(function(){
   highlightButtonOnDropdownActive();
   animateScrollToSection();
   highlightNavigationLinks();
-  getDataFromAPI();
 });
