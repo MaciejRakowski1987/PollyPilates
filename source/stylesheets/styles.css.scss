@@ -74,7 +74,7 @@ html, body {}
 }
 
 .header__nav-item--active a {
-
+  background: white;
 }
 
 // .header__nav-item--dropdownButton {
@@ -260,9 +260,6 @@ textarea.form-control {
   }
 }
 
-.mainContent {
-  text-align: center;
-}
 
 .transparentBox {
   display: inline-block;
