@@ -1,11 +1,11 @@
-/* line 4, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 5, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .flex-container {
   margin: 0 auto;
   max-width: 1024px;
   min-width: 320px;
   padding: 0 10px; }
 
-/* line 14, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 15, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .header__nav {
   height: 50px;
   line-height: 30px;
@@ -18,16 +18,16 @@
   padding: 0% 0%;
   display: inline-block; }
 
-/* line 27, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 28, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .mobileNav {
   display: none; }
 
-/* line 31, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 32, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .header__nav-item {
   display: block;
   float: left;
   margin-left: 6%; }
-  /* line 36, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+  /* line 37, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
   .header__nav-item a {
     position: relative;
     color: #F7941D !important;
@@ -37,13 +37,13 @@
     padding: 10px 15px;
     text-decoration: none !important;
     transition: all 0.4s linear; }
-    /* line 46, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+    /* line 47, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
     .header__nav-item a:hover {
       cursor: pointer;
       height: 50px;
       padding-top: 10px; }
 
-/* line 55, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 56, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .header__nav-item > a:before {
   content: "";
   position: absolute;
@@ -58,77 +58,92 @@
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s; }
 
-/* line 70, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 71, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .header__nav-item > a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
 
-/* line 76, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
-.header__nav-item--active a {
-  background: white; }
-
-/* line 95, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 96, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .header__nav-item--contact {
   float: right; }
 
-/* line 131, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 132, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .mobileNav__nav {
   display: none; }
 
-/* line 135, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 136, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 #jumbo {
-  height: 100%;
+  height: 100vh;
   background: url("../images/img1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0px; }
 
-/* line 142, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 146, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .main_page {
   padding: 200px 0px 200px 0px;
   color: #ffffff; }
 
-/* line 147, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 151, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .main {
   position: relative;
   text-align: center;
   top: 50px;
   margin-bottom: 85px; }
 
-/* line 154, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
-.about_me {
-  background: #3a6186;
-  background: -webkit-linear-gradient(to left, #3a6186, #89253e);
-  background: linear-gradient(to left, #3a6186, #89253e); }
+/* line 158, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
+.section__content {
+  color: #777;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  text-align: justify; }
 
-/* line 160, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
-.about_me-text {
-  color: #ffffff; }
+/* line 167, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
+.section-heading {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111; }
 
-/* line 164, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 174, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
+.section__second {
+  height: 50vh;
+  background: url("../images/img2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px; }
+
+/* line 192, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .myImage {
   margin-top: 50px; }
 
-/* line 168, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 196, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .col-centered {
   float: none;
   margin: 0 auto; }
 
-/* line 173, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 201, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
   background: #F7941D !important; }
 
-/* line 177, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 205, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .content-header {
   font-family: 'Oleo Script', cursive;
   color: #F7941D;
   font-size: 45px; }
 
-/* line 183, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 211, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .section-content {
   text-align: center; }
 
-/* line 187, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 215, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 #contact {
   font-family: 'Teko', sans-serif;
   padding-top: 60px;
@@ -140,38 +155,38 @@
   background: linear-gradient(to left, #3a6186, #89253e);
   color: #fff; }
 
-/* line 199, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 227, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .contact-section {
   padding-top: 40px; }
 
-/* line 202, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 230, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .contact-section .col-md-6 {
   width: 50%; }
 
-/* line 206, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 234, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .form-line {
   border-right: 1px solid #B29999; }
 
-/* line 210, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 238, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .form-group {
   margin-top: 10px; }
 
-/* line 213, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 241, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 label {
   font-size: 1.3em;
   line-height: 1em;
   font-weight: normal; }
 
-/* line 218, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 246, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .form-control {
   font-size: 1.3em;
   color: #080808; }
 
-/* line 222, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 250, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 textarea.form-control {
   height: 107px !important; }
 
-/* line 226, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 254, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .submit {
   font-size: 1.1em;
   float: right;
@@ -179,7 +194,7 @@ textarea.form-control {
   background-color: transparent;
   color: #fff; }
 
-/* line 234, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 262, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .btn__second {
   border-radius: 7px;
   border: 3px solid rgba(247, 148, 29, 0.74);
@@ -192,29 +207,42 @@ textarea.form-control {
   text-decoration: none;
   text-transform: uppercase;
   transition-duration: 0.8s; }
-  /* line 247, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+  /* line 275, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
   .btn__second:hover {
     background-color: #f7941d;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     color: white;
     text-decoration: none; }
-  /* line 253, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+  /* line 281, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
   .btn__second:visited {
     text-decoration: none;
     color: #fff; }
-  /* line 257, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+  /* line 285, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
   .btn__second:focus {
     text-decoration: none;
     color: #fff; }
 
-/* line 264, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 292, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .transparentBox {
   display: inline-block;
   margin: 0 auto;
   padding: 10px; }
 
-/* line 270, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/styles.css.scss */
+/* line 298, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
 .transparentBox__column {
   display: inline-block;
   text-align: center;
   width: 235px; }
+
+/* line 304, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
+.companyName {
+  color: #F7941D; }
+
+/* line 308, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/styles.css.scss */
+footer {
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  position: relative; }

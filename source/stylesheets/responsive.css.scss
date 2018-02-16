@@ -2,12 +2,11 @@
 
 
 @include respond-to(mobile) {
-
- .header {
-   display: none;
+  .header {
+    display: none;
   }
-  
- .mobileNav {
+
+  .mobileNav {
     display: inline-block;
     position: absolute;
     right: 10px;

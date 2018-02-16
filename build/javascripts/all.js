@@ -1,13 +1,3 @@
-$().ready(function() {
-  $('#fullpage').fullpage({
-    menu: '#menu',
-  navigation: true,
-    onLeave: function(index, nextIndex, direction) {
-    }
-  });
-});
-
-
 function highlightButtonOnDropdownActive() {
   var activeClass = 'header__nav-item--active';
   var dropdownButtonSelector = '.header__nav-item--dropdownButton'
@@ -24,6 +14,10 @@ function highlightButtonOnDropdownActive() {
     $(dropdownButtonSelector).removeClass(activeClass);
   });
 }
+
+$(document).ready(function() {
+  $('.main').addClass('fadeIn');
+});
 
 $(document).ready(function(){
     $(".mobileNav").click(function(){
@@ -87,9 +81,68 @@ function animateScrollToSection() {
   })
 }
 
+function initMap() {
+  var markerPosition = {lat: 53.4387859, lng: 14.562607299999968};
+  var mapCenterPosition = {lat: 53.4387859, lng: 14.5648};
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 17,
+    center: mapCenterPosition,
+    clickableIcons: false,
+    disableDefaultUI: true,
+    disableDoubleClickZoom: true,
+    draggable: false,
+    fullscreenControl: false,
+    fullscreenControlOptions: false,
+    keyboardShortcuts: false,
+    gestureHandling: 'none',
+    draggableCursor: 'default'
+
+  });
+  var marker = new google.maps.Marker({
+    position: markerPosition,
+    map: map
+  });
+}
+
+function getDataFromAPI() {
+  $('#dataButton').on('click', function(){
+
+    $(this).text('loading...').css({'opacity': '0.5', 'pointer-events': 'none'})
+
+    $.ajax({
+      url: 'http://5a74c66b08118e0012fd4c9a.mockapi.io/raku/cars',
+      data: {},
+      type: 'GET',
+      success: function(data) {
+        onRequestSuccess(data)
+        $('#dataButton').text('button').css({'opacity': '1', 'pointer-events': 'initial'})
+      },
+      error: function(JqXHR, textStatus, errorThrown) {
+        onRequestError(errorThrown);
+        $('#dataButton').text('button').css({'opacity': '1', 'pointer-events': 'initial'})
+      }
+    })
+  })
+}
+
+function onRequestError(error) {
+  alert(error)
+}
+
+function onRequestSuccess(data) {
+  $('#dataItems').html('');
+  $.each(data, function(index, car) {
+    var itemTemplate = '<div>Model: ' + car.model + '<br/>Engine: ' + car.engine + '<br/><br/></div>';
+    $('#dataItems').append(itemTemplate);
+  })
+}
 
 $(document).ready(function(){
   highlightButtonOnDropdownActive();
   animateScrollToSection();
   highlightNavigationLinks();
+  getDataFromAPI();
 });
+
+

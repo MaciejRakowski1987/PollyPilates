@@ -1,9 +1,9 @@
 @media only screen and (max-width: 768px) {
-  /* line 6, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/responsive.css.scss */
+  /* line 5, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/responsive.css.scss */
   .header {
     display: none; }
 
-  /* line 10, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/responsive.css.scss */
+  /* line 9, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/responsive.css.scss */
   .mobileNav {
     display: inline-block;
     position: absolute;
@@ -11,12 +11,12 @@
     top: 10px;
     z-index: 100; }
 
-  /* line 18, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/responsive.css.scss */
+  /* line 17, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/responsive.css.scss */
   .mobileNav__logo {
     width: 50px;
     height: 50px; }
 
-  /* line 23, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/responsive.css.scss */
+  /* line 22, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/responsive.css.scss */
   .mobileNav__nav {
     background-color: rgba(74, 183, 71, 0.85);
     display: none;
@@ -29,7 +29,7 @@
     width: 100%;
     z-index: 10; }
 
-  /* line 36, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/responsive.css.scss */
+  /* line 35, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/responsive.css.scss */
   .mobileNav__nav-item {
     color: #fff;
     display: block;
@@ -40,24 +40,24 @@
     text-align: center;
     text-decoration: none;
     width: 100%; }
-    /* line 47, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/responsive.css.scss */
+    /* line 46, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/responsive.css.scss */
     .mobileNav__nav-item:hover {
       color: #fff;
       text-decoration: underline; }
-    /* line 52, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/responsive.css.scss */
+    /* line 51, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/responsive.css.scss */
     .mobileNav__nav-item:focus, .mobileNav__nav-item:active {
       background-color: rgba(255, 255, 255, 0.15);
       outline: none; }
-    /* line 57, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/responsive.css.scss */
+    /* line 56, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/responsive.css.scss */
     .mobileNav__nav-item.mobileNav__nav-item--menu {
       background-color: rgba(0, 0, 0, 0.15);
       text-transform: uppercase;
       text-decoration: none; }
 
-  /* line 64, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/responsive.css.scss */
+  /* line 63, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/responsive.css.scss */
   .mobileNav__certificates--gallery {
     display: none; }
 
-  /* line 68, C:/Users/macr/Dropbox/projects/FILES DGS/PollyPilates/source/stylesheets/responsive.css.scss */
+  /* line 67, C:/Users/macr/Desktop/PollyPilates - Beta/source/stylesheets/responsive.css.scss */
   .mobileNav__img {
     display: none; } }
